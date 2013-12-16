@@ -121,6 +121,7 @@ struct {
 } control_perms[] = {
     { "dumpstate",AID_SHELL, AID_LOG },
     { "ril-daemon",AID_RADIO, AID_RADIO },
+    { "bluetoothd" , AID_BLUETOOTH, AID_BLUETOOTH},
 #ifdef CONTROL_PERMS_APPEND
 CONTROL_PERMS_APPEND
 #endif
